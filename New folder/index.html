@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Le Van Tuyen</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+
+<body>
+
+    <!-- Parallax Background -->
+    <div class="background" data-speed="0.5"></div>
+
+    <!-- Profile Card -->
+    <header class="profile-card reveal">
+        <img src="https://avatars.githubusercontent.com/u/9919?v=4" alt="Avatar" class="avatar">
+        <h1>Le Van Tuyen</h1>
+        <p class="typing"></p>
+        <div class="socials">
+            <a href="https://facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://github.com/" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+        <div class="buttons">
+            <a href="cv.pdf" class="btn" download>Tải CV</a>
+            <a href="#contact" class="btn btn-alt">Liên hệ</a>
+        </div>
+    </header>
+
+    <!-- About -->
+    <section class="reveal">
+        <h2>Giới thiệu</h2>
+        <p>Mình là một Frontend Developer với niềm đam mê thiết kế web hiện đại, sáng tạo và tối ưu trải nghiệm người
+            dùng.
+            Luôn học hỏi và áp dụng công nghệ mới để mang lại sản phẩm chất lượng cao.</p>
+    </section>
+
+    <!-- Skills -->
+    <section class="reveal">
+        <h2>Kỹ năng</h2>
+        <div class="skill">
+            <span>HTML/CSS</span>
+            <div class="progress">
+                <div style="width: 95%"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <span>JavaScript</span>
+            <div class="progress">
+                <div style="width: 90%"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <span>React</span>
+            <div class="progress">
+                <div style="width: 85%"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Timeline -->
+    <section class="reveal">
+        <h2>Kinh nghiệm</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <span>2023 - Hiện tại</span>
+                <p>Frontend Developer tại Công ty ABC</p>
+            </div>
+            <div class="timeline-item">
+                <span>2021 - 2023</span>
+                <p>Freelancer phát triển website</p>
+            </div>
+        </div>
+    </section>
+
+<section class="reveal" id="projects">
+    <h2>Dự án</h2>
+    <div class="projects">
+        <div class="project">
+            <img src="https://picsum.photos/400/250?random=1" alt="Portfolio Website">
+            <h3>Portfolio Website</h3>
+            <p>Website cá nhân chuyên nghiệp, tối ưu SEO và responsive.</p>
+            <div class="buttons"><a href="#">Xem Demo</a></div>
+        </div>
+
+        <div class="project">
+            <img src="https://picsum.photos/400/250?random=2" alt="Task Management App">
+            <h3>Task Management App</h3>
+            <p>Ứng dụng quản lý công việc với tính năng drag & drop.</p>
+            <div class="buttons"><a href="tasks/tasks.html" target="_blank">Xem Demo</a></div>
+        </div>
+
+        <div class="project">
+            <img src="https://picsum.photos/400/250?random=3" alt="CRUD App">
+            <h3>CRUD App</h3>
+            <p>Ứng dụng CRUD với Node.js + Express.</p>
+            <div class="buttons"><a href="crud/crud.html" target="_blank">Xem Demo</a></div>
+        </div>
+
+        <div class="project">
+            <img src="https://picsum.photos/400/250?random=4" alt="Blog App">
+            <h3>Blog App</h3>
+            <p>Ứng dụng blog với tính năng đăng, sửa, xóa bài viết.</p>
+            <div class="buttons"><a href="blog/blog.html" target="_blank">Xem Demo</a></div>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- Liên hệ -->
+<section id="contact">
+    <h2>Liên hệ</h2>
+    <p>Bạn có thể liên hệ với mình qua email:
+        <a href="mailto:letuyen2k6@gmail.com" class="email-link">letuyen2k6@gmail.com</a>
+    </p>
+    <form class="contact-form">
+        <input type="text" placeholder="Họ và tên" required>
+        <input type="email" placeholder="Email" required>
+        <textarea placeholder="Nội dung" rows="2" required></textarea>
+        <button type="submit">Gửi</button>
+    </form>
+</section>
+
+<!-- Footer -->
+<footer>
+    <div class="footer-content">
+        <div>
+            <h3>Liên hệ</h3>
+            <p><i class="fas fa-envelope"></i> letuyen2k6@gmail.com</p>
+            <p><i class="fas fa-phone"></i> +84 012 345 6789</p>
+        </div>
+        <div>
+            <h3>Mạng xã hội</h3>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+        <div>
+            <h3>Thông tin</h3>
+            <p>© 2025 <b>Le Van Tuyen</b>. All Rights Reserved.</p>
+            <p>Made with ❤️ & ☕</p>
+        </div>
+    </div>
+</footer>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

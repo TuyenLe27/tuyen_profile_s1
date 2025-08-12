@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Management App</title>
+    <link rel="stylesheet" href="tasks.css">
+</head>
+
+<body>
+    <h1>📋 Quản lý công việc</h1>
+    <div class="board">
+        <div class="column" id="todo">
+            <h2>Todo</h2>
+        </div>
+        <div class="column" id="doing">
+            <h2>Doing</h2>
+        </div>
+        <div class="column" id="done">
+            <h2>Done</h2>
+        </div>
+    </div>
+    <input type="text" id="taskInput" placeholder="Nhập công việc...">
+    <button onclick="addTask()">Thêm</button>
+
+    <script src="tasks.js"></script>
+</body>
+
+</html>
